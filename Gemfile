@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.1'
+gem 'rails', '~> 4.2'
 
 gem 'pg'
 
@@ -36,8 +36,8 @@ gem 'icalendar', '~> 2.2'
 gem 'time_zone_ext'
 
 #Background Jobs
-gem 'delayed_job', '~> 4.0.1'
-gem 'delayed_job_active_record', '~> 4.0.1'
+gem 'delayed_job', '~> 4.0'
+gem 'delayed_job_active_record', '~> 4.0'
 
 # File Storage
 gem 'paperclip', '~> 4.1'
