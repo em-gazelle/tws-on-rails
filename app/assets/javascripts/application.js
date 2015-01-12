@@ -29,3 +29,12 @@ $(document).scroll(function() {
       $(elem).removeClass('visible');
   }
 })
+
+function toggleHeader(elem) {
+  var a = document.getElementsByClassName('nav-list')[0];
+  if (a.classList.length > 1) {
+    a.className = 'nav-list'
+  } else {
+    a.className += ' open';
+  }
+}
